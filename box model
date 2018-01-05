@@ -1,7 +1,27 @@
 <html>
 <head>
 <style>
+.col1{
+float: left;
+width:35%;
+height:100px;
+background:green;
+}
+.col2{
+float:right;
+width:35%;
+height:200px;
+background:blue;
+clear:right;
+}
 
+.col3{
+float: left;
+width:33%;
+height:150px;
+background:blue;
+clear:right;
+}
 </style>
 </head>
 
@@ -13,4 +33,7 @@
 <div class="wrapper">
 <div class="col3"> </div>
 <div class="col4"> </div>
+<div class="col5"> </div>
+</div>
 </body>
+</html>
